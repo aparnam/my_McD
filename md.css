@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+body button :hover{
+    cursor: pointer;
+}
+.header{
+    height: 140px;
+    display:grid;
+    padding-left: 15px;
+    grid-template-columns: 240px 1fr;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    text-align: center;
+    width: 240px;
+    padding-top: 20px;
+}
+.rightsection{
+    display: grid;
+    padding-top: 25px;
+}
+.topheader{
+    display: grid;
+    grid-template-columns: 600px 1fr;
+}
+.topheader select{ 
+    border: 0;
+}
+.topheader input{
+    width: 80px;
+    border: 0;
+}
+.topheader button{
+    border-radius: 4px;
+    height: 30px;background-color: orange;
+    border: 0;
+    width: 100px;
+}
+.flexleft{
+    margin-right: 30px;
+} 
+.flexright{
+    margin-right: 20px;
+}
+.bottomheader{
+    margin-right: 250px;
+}
+.bottomnav{
+    display: flex;
+    justify-content: space-between;
+}
+.bottomnav select{
+    border: 0;
+    font-size: small;
+}
+
+
